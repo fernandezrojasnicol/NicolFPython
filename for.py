@@ -40,18 +40,7 @@
 # # calcular el promedio de todas las notas
 # # mostrar si aprueba o no
 
-notas=int(input("Ingrese la cant de notas: "))
-suma=0
-for i in range(notas):
-    n=float(input(f"Ingrese la nota {i+1}: "))
-    suma=suma+n
-prom=suma/notas
-print("El promedio es",round(prom, 1) )
 
-if prom>=4:
-    print("ALumno aprobado")
-else:
-    print("ALumno reprobado")
 
 
 # # cuenta la cantidad de vocales
@@ -96,3 +85,17 @@ else:
 #     else:
 #         print("ALumno reprobado")
 #         repro+=1
+
+
+
+print("Cual es su nombre?")
+name=input()
+vocales=0
+cons=0
+for i in name:
+    print(i)
+    if i in "aeiouAEIOU":
+        vocales=vocales+1
+    else i in 
+print(f"La cantidad de vocales son {vocales}")
+print(f"La cantidad de consonantes son {cons}")
