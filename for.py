@@ -83,19 +83,5 @@
 #         print("ALumno aprobado")
 #         apro+=1
 #     else:
-#         print("ALumno reprobado")
+#         print("ALumno reprobado") 
 #         repro+=1
-
-
-
-print("Cual es su nombre?")
-name=input()
-vocales=0
-cons=0
-for i in name:
-    print(i)
-    if i in "aeiouAEIOU":
-        vocales=vocales+1
-    else i in 
-print(f"La cantidad de vocales son {vocales}")
-print(f"La cantidad de consonantes son {cons}")
